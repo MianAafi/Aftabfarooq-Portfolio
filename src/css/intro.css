@@ -1,0 +1,85 @@
+.intro-section {
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.image-home-my {
+  width: 100%;
+}
+.Intro-Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+}
+.MyNameColor {
+  color: var(--text);
+  font-size: 40px;
+  font-weight: bold;
+}
+.Developer {
+  font-size: 24px;
+  color: var(--bg);
+}
+.devep {
+  background-image: var(--bg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.intro-Prargraph {
+  font-size: 18px;
+}
+.CV-btn {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  background: var(--bg);
+}
+.CV-btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .MyNameColor {
+    font-size: 34px;
+  }
+}
+@media (max-width: 768px) {
+  .Intro-Row {
+    padding-top: 20px;
+  }
+  .home-intro {
+    text-align: center;
+  }
+  .image-home-my {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .MyNameColor {
+    font-size: 30px;
+  }
+  .Intro-Row {
+    padding-top: 10px;
+  }
+  .Developer {
+    font-size: 22px;
+  }
+  .home-intro {
+    text-align: center;
+  }
+  .image-home-my {
+    width: 60%;
+  }
+  .intro-Prargraph {
+    font-size: 16px;
+  }
+}

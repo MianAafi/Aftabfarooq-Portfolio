@@ -1,0 +1,12 @@
+.namefooter {
+  font-weight: bold;
+  color: black;
+}
+.namefooter :hover {
+  text-decoration: none;
+  color: var(--text);
+}
+.FooterTop {
+  border-top: 1px solid var(--text);
+  padding: 15px 0;
+}

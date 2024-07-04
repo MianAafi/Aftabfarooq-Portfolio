@@ -1,0 +1,52 @@
+.contactSection {
+  margin: 70px 0 20px 0;
+}
+.ContactInfo {
+  padding: 20px 20px;
+  margin-top: 30px;
+}
+.contact-head {
+  font-size: 35px;
+  font-weight: bold;
+}
+.feelfreecontact-P {
+  margin: 20px 0 0 0;
+}
+.SubmitYourDetails {
+  margin-top: 30px;
+  padding: 20px 20px;
+  /* background: var(--text); */
+  /* padding: 50px; */
+}
+.form-group {
+  margin: 7px 0;
+}
+.Lets-discuss {
+  margin-bottom: 20px;
+}
+.worktogather {
+  font-weight: 500;
+  color: var(--text);
+}
+.workTogather-p {
+  margin-top: 20px;
+  color: var(--black);
+}
+.contactCre {
+  /* color: var(--blue); */
+  color: red;
+}
+.faisalabad {
+  font-weight: normal;
+}
+.contact_us {
+  background: var(--bg);
+  color: var(--white);
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+}
+.contact_us:hover {
+  background: var(--bgL);
+}

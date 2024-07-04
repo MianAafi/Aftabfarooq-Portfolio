@@ -1,0 +1,69 @@
+.Logo-image {
+  height: 50px;
+}
+#navbar-bg {
+  background: var(--bg);
+  padding: 10px 120px;
+}
+.navbtext {
+  color: var(--text);
+}
+#headerNav:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.Header {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Optional, use this if you have overlapping elements */
+}
+
+/* Style navigation links in the header */
+.Header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.Header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1200px) {
+  #navbar-bg {
+    padding: 10px 90px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 255, 0.002); /* Blue color with 0.2% opacity */
+  }
+}
+
+@media (max-width: 576px) {
+  #navbar-bg {
+    padding: 10px 50px;
+  }
+}
+@media (max-width: 399px) {
+  #navbar-bg {
+    padding: 10px 20px;
+  }
+  .Logo-image {
+    height: 40px;
+  }
+}
+@media (max-width: 314px) {
+  #navbar-bg {
+    padding: 10px;
+  }
+}

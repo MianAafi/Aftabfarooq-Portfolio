@@ -1,0 +1,12 @@
+:root {
+  --text: #19467e;
+  --bg: linear-gradient(to right, #5897e3, #19467e);
+  --white: white;
+  --offwhite: #c1c1c1;
+  --blue: #0955b3;
+  --black: black;
+  --bgL: linear-gradient(to left, #5897e3, #5897e3, #19467e);
+}
+* {
+  font-family: 'rubik', 'Open Sans', sans-serif;
+}

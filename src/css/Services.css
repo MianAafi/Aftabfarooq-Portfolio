@@ -1,0 +1,41 @@
+.servicesSection {
+  padding: 50px 0;
+}
+.MyServices {
+  font-size: 35px;
+  font-weight: bold;
+}
+.ServicesOffer {
+  padding: 20px 0 10px 0;
+}
+.underlinediv {
+  height: 4px;
+  width: 60px;
+  background: var(--bg);
+  border-radius: 5px;
+}
+.feature-box-01 {
+  background: var(--bg);
+  padding: 20px 10px 10px 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  background: var(--text);
+  border-radius: 30px;
+}
+.icon > i {
+  display: flex;
+  justify-content: center;
+  line-height: 60px;
+  color: var(--white);
+  font-size: 25px;
+}
+.feature-content > h5 {
+  color: var(--white);
+}
+.feature-content > p {
+  color: var(--offwhite);
+}
